@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c7b07e-4b02-4172-b627-a0fcf715046c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/perceptron/Iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perceptron/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perceptron/perce_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/KNearestNeighbor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/climber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perceptron/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/perceptron/Iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Iris.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perceptron/perce_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/perceptron/perce_main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,73 +23,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LiHangSta$knn_main.coverage" NAME="knn_main Coverage Results" MODIFIED="1546997229568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/LiHangSta$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1546584875778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/perceptron" />
+    <SUITE FILE_PATH="coverage/LiHangSta$test.coverage" NAME="test Coverage Results" MODIFIED="1547517859686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
+    <SUITE FILE_PATH="coverage/LiHangSta$main.coverage" NAME="main Coverage Results" MODIFIED="1547518883998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/LiHangSta$loadata.coverage" NAME="loadata Coverage Results" MODIFIED="1546574180689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/perceptron" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1389728739">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
-          <entry key="md" value="1" />
-          <entry key="py" value="6" />
+          <entry key="csv" value="3" />
+          <entry key="gitignore" value="1" />
+          <entry key="md" value="4" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="6" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="md" value="47" />
-          <entry key="py" value="2384" />
+          <entry key="dummy" value="32" />
+          <entry key="md" value="398" />
+          <entry key="py" value="8376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="47" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="2384" />
+          <entry key="HTML" value="2" />
+          <entry key="Markdown" value="396" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Python" value="8376" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/perceptron/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/perceptron/perce_main.py">
+        <entry file="file://$PROJECT_DIR$/knn/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="731">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
-                <element signature="e#26#44#0" expanded="true" />
-                <marker date="1546586819685" expanded="true" signature="1325:1326" ph="..." />
-                <marker date="1546586819685" expanded="true" signature="1325:1330" ph="..." />
+                <marker date="1547519791849" expanded="true" signature="596:597" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/perceptron/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/perceptron/Iris.csv">
+        <entry file="file://$PROJECT_DIR$/perceptron/perce_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-end-column="64" />
+            <state relative-caret-position="87">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -96,16 +117,34 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_Node</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/perceptron/perceptron.py" />
         <option value="$PROJECT_DIR$/perceptron/loadata.py" />
         <option value="$PROJECT_DIR$/perceptron/perce_main.py" />
+        <option value="$PROJECT_DIR$/knn/buildTree.py" />
+        <option value="$PROJECT_DIR$/knn/climpTree.py" />
+        <option value="$PROJECT_DIR$/knn/climp.py" />
+        <option value="$PROJECT_DIR$/knn/knn_main.py" />
+        <option value="$PROJECT_DIR$/knn/knn.py" />
+        <option value="$PROJECT_DIR$/knn/KNearestNeighbor.py" />
+        <option value="$PROJECT_DIR$/knn/builder.py" />
+        <option value="$PROJECT_DIR$/knn/util.py" />
+        <option value="$PROJECT_DIR$/knn/test.py" />
+        <option value="$PROJECT_DIR$/knn/main.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/knn/climber.py" />
+        <option value="$PROJECT_DIR$/knn/README.md" />
+        <option value="$PROJECT_DIR$/perceptron/README.md" />
       </list>
     </option>
   </component>
@@ -115,11 +154,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1953" />
+    <option name="y" value="96" />
+    <option name="width" value="1296" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -137,13 +176,7 @@
             <path>
               <item name="LiHangSta" type="b2602c69:ProjectViewProjectNode" />
               <item name="LiHangSta" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiHangSta" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiHangSta" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="perceptron" type="462c0819:PsiDirectoryNode" />
+              <item name="knn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LiHangSta" type="b2602c69:ProjectViewProjectNode" />
@@ -163,6 +196,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LiHangSta\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\LiHangSta\data\perceptron" />
     </key>
@@ -179,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.perceptron">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,10 +238,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="knn_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LiHangSta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\LiHangSta\knn\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="loadata" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/perceptron" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -221,10 +282,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LiHangSta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/perceptron" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -240,12 +323,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LiHangSta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.loadata" />
       <item itemvalue="Python.perceptron" />
+      <item itemvalue="Python.knn_main" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.knn_main" />
         <item itemvalue="Python.perceptron" />
         <item itemvalue="Python.loadata" />
       </list>
@@ -264,32 +375,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="1912" y="-793" width="1096" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17004049" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19015443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" visible="true" weight="0.24168126" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39754817" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7123552" weight="0.3544018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" sideWeight="0.13856813" side_tool="true" visible="true" weight="0.1902834" />
-      <window_info anchor="right" id="SciView" sideWeight="0.8614319" visible="true" weight="0.1902834" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924694" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32046333" side_tool="true" visible="true" weight="0.261851" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49903476" weight="0.17663656" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.6795367" visible="true" weight="0.261851" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8581436" visible="true" weight="0.1042471" />
+      <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" order="4" sideWeight="0.14185639" side_tool="true" weight="0.10040486" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,16 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python37/Lib/site-packages/numpy/lib/_datasource.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -316,35 +426,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/perceptron/Iris.csv">
+    <entry file="file://$PROJECT_DIR$/perceptron/loadata.py" />
+    <entry file="file://$PROJECT_DIR$/knn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Iris.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perceptron/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perceptron/loadata.py">
+    <entry file="file://$PROJECT_DIR$/knn/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="731">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <element signature="e#23#41#0" expanded="true" />
+            <marker date="1547519791849" expanded="true" signature="596:597" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/climber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding>
+            <marker date="1547520449455" expanded="true" signature="96:101" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <marker date="1547089311893" expanded="true" signature="113:182" ph="..." />
+            <marker date="1547089311893" expanded="true" signature="395:404" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#13#44#0" expanded="true" />
+            <marker date="1547517742068" expanded="true" signature="115:116" ph="..." />
+            <marker date="1547517742068" expanded="true" signature="398:481" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/KNearestNeighbor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#31#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/perceptron/perce_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#26#44#0" expanded="true" />
-            <marker date="1546586819685" expanded="true" signature="1325:1326" ph="..." />
-            <marker date="1546586819685" expanded="true" signature="1325:1330" ph="..." />
-          </folding>
+        <state relative-caret-position="87">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

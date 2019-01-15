@@ -50,7 +50,7 @@ def perce():
     主程序
     :return: none
     """
-    data = load('../data/perceptron/Iris.csv')
+    data = load('../data/Iris.csv')
     # 准备数据
     # 用前两类的epalLengthCm,SepalWidthCm特征
     data = data[np.argwhere(data[:, -1] != 2), [1, 2, 5]]
