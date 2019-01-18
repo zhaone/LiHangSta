@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c7b07e-4b02-4172-b627-a0fcf715046c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/knn/KNearestNeighbor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/climber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perceptron/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naiveBayes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naiveBayes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naiveBayes/bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naiveBayes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naiveBayes/pretreatment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naiveBayes/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/perceptron/Iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Iris.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perceptron/perce_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/perceptron/perce_main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,49 +20,53 @@
     <SUITE FILE_PATH="coverage/LiHangSta$knn_main.coverage" NAME="knn_main Coverage Results" MODIFIED="1546997229568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/LiHangSta$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1546584875778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/perceptron" />
     <SUITE FILE_PATH="coverage/LiHangSta$test.coverage" NAME="test Coverage Results" MODIFIED="1547517859686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
-    <SUITE FILE_PATH="coverage/LiHangSta$main.coverage" NAME="main Coverage Results" MODIFIED="1547518883998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
+    <SUITE FILE_PATH="coverage/LiHangSta$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1547643913814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naiveBayes" />
+    <SUITE FILE_PATH="coverage/LiHangSta$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1547779427431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naiveBayes" />
+    <SUITE FILE_PATH="coverage/LiHangSta$main.coverage" NAME="main Coverage Results" MODIFIED="1547643228063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/LiHangSta$loadata.coverage" NAME="loadata Coverage Results" MODIFIED="1546574180689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/perceptron" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1389728739">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="3" />
+          <entry key="csv" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="md" value="4" />
-          <entry key="py" value="14" />
+          <entry key="md" value="5" />
+          <entry key="py" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="14" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="32" />
-          <entry key="md" value="398" />
-          <entry key="py" value="8376" />
+          <entry key="Python Console" value="35" />
+          <entry key="dummy" value="36" />
+          <entry key="md" value="520" />
+          <entry key="py" value="11943" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="Markdown" value="396" />
-          <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="8376" />
+          <entry key="Markdown" value="518" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="Python" value="11978" />
         </counts>
       </usages-collector>
     </session>
@@ -76,34 +74,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knn/main.py">
+        <entry file="file://$PROJECT_DIR$/naiveBayes/pretreatment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="646">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naiveBayes/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
-                <marker date="1547519791849" expanded="true" signature="596:597" ph="..." />
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naiveBayes/bayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1387">
+              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+              <folding>
+                <marker date="1547781241690" expanded="true" signature="67:186" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naiveBayes/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#25#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/perceptron/README.md">
+        <entry file="file://$PROJECT_DIR$/naiveBayes/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/perceptron/perce_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -120,7 +142,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>_Node</find>
+      <find>data_set</find>
+      <find>possibility</find>
     </findStrings>
+    <replaceStrings>
+      <replace>data</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,15 +163,21 @@
         <option value="$PROJECT_DIR$/knn/climp.py" />
         <option value="$PROJECT_DIR$/knn/knn_main.py" />
         <option value="$PROJECT_DIR$/knn/knn.py" />
-        <option value="$PROJECT_DIR$/knn/KNearestNeighbor.py" />
-        <option value="$PROJECT_DIR$/knn/builder.py" />
-        <option value="$PROJECT_DIR$/knn/util.py" />
         <option value="$PROJECT_DIR$/knn/test.py" />
-        <option value="$PROJECT_DIR$/knn/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/knn/climber.py" />
         <option value="$PROJECT_DIR$/knn/README.md" />
         <option value="$PROJECT_DIR$/perceptron/README.md" />
+        <option value="$PROJECT_DIR$/knn/builder.py" />
+        <option value="$PROJECT_DIR$/knn/climber.py" />
+        <option value="$PROJECT_DIR$/knn/KNearestNeighbor.py" />
+        <option value="$PROJECT_DIR$/knn/main.py" />
+        <option value="$PROJECT_DIR$/knn/util.py" />
+        <option value="$PROJECT_DIR$/knn/pretreatment.py" />
+        <option value="$PROJECT_DIR$/naiveBayes/main.py" />
+        <option value="$PROJECT_DIR$/naiveBayes/test.py" />
+        <option value="$PROJECT_DIR$/naiveBayes/bayes.py" />
+        <option value="$PROJECT_DIR$/naiveBayes/pretreatment.py" />
+        <option value="$PROJECT_DIR$/naiveBayes/README.md" />
       </list>
     </option>
   </component>
@@ -155,8 +188,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1953" />
-    <option name="y" value="96" />
+    <option name="x" value="1473" />
+    <option name="y" value="72" />
     <option name="width" value="1296" />
     <option name="height" value="704" />
   </component>
@@ -176,12 +209,7 @@
             <path>
               <item name="LiHangSta" type="b2602c69:ProjectViewProjectNode" />
               <item name="LiHangSta" type="462c0819:PsiDirectoryNode" />
-              <item name="knn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiHangSta" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiHangSta" type="462c0819:PsiDirectoryNode" />
-              <item name="perceptron" type="462c0819:PsiDirectoryNode" />
+              <item name="naiveBayes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,14 +221,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\LiHangSta\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\LiHangSta\data\perceptron" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LiHangSta\naiveBayes" />
+      <recent name="E:\LiHangSta\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -215,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="knn_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,12 +275,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naiveBayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\LiHangSta\knn\main.py" />
+      <option name="SCRIPT_NAME" value="E:\LiHangSta\naiveBayes\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,20 +289,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="loadata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/perceptron" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naiveBayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/perceptron/loadata.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naiveBayes/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,6 +312,9 @@
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knn" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -301,20 +330,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LiHangSta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/perceptron" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naiveBayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\LiHangSta\perceptron\perce_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naiveBayes/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,19 +372,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.loadata" />
-      <item itemvalue="Python.perceptron" />
-      <item itemvalue="Python.knn_main" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.bayes" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.bayes" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.knn_main" />
-        <item itemvalue="Python.perceptron" />
-        <item itemvalue="Python.loadata" />
       </list>
     </recent_temporary>
   </component>
@@ -385,29 +411,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-793" width="1096" height="1906" extended-state="6" />
+    <frame x="1912" y="-485" width="1096" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19015443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20752896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7123552" weight="0.3544018" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8368726" weight="0.3544018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924694" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49903476" weight="0.32900676" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32046333" side_tool="true" visible="true" weight="0.261851" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49903476" weight="0.17663656" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.6795367" visible="true" weight="0.261851" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.527027" side_tool="true" visible="true" weight="0.28837472" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.47297296" visible="true" weight="0.28837472" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.83590734" weight="0.261851" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8581436" visible="true" weight="0.1042471" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8581436" visible="true" weight="0.109073356" />
       <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" order="4" sideWeight="0.14185639" side_tool="true" weight="0.10040486" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -440,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Iris.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -454,66 +473,6 @@
             <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <marker date="1547519791849" expanded="true" signature="596:597" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn/climber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding>
-            <marker date="1547520449455" expanded="true" signature="96:101" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn/builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <marker date="1547089311893" expanded="true" signature="113:182" ph="..." />
-            <marker date="1547089311893" expanded="true" signature="395:404" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#13#44#0" expanded="true" />
-            <marker date="1547517742068" expanded="true" signature="115:116" ph="..." />
-            <marker date="1547517742068" expanded="true" signature="398:481" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn/KNearestNeighbor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#31#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,6 +498,102 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
             <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/KNearestNeighbor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/climber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Iris.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1593">
+          <caret column="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+          <folding>
+            <marker date="1547781241690" expanded="true" signature="67:186" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes/pretreatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naiveBayes/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
